@@ -25,7 +25,8 @@ h1 {
 
 .seccion-oscura {
     color: white;
-    background-color: #1b1b32;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .seccion-clara {
@@ -75,6 +76,14 @@ h1 {
     padding: 3rem;
 }
 
+button.saludo {
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 15px;
+}
+
+
 .hero-imagen-desarrollador{
     width: 200px;
     height: 200px;
@@ -113,6 +122,7 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
     transition: all 0.2s ease-in;
+    border-radius: 25px;
 }
 
 .experiencia .columna:hover {
@@ -123,7 +133,8 @@ h1 {
 .experiencia i {
     font-size: 2.5rem;
     color: #85c7e3;
-    background-color: #0a2323;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     padding: 8px 19px;
     border-radius: 50%;
 }
@@ -145,7 +156,8 @@ h1 {
 }
 
 .text-bg-primary {
-    background-color: #85c7e3!important;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 /* Proyectos */
@@ -158,7 +170,7 @@ h1 {
     height: 100%;
     width: 100%;
     padding: 10%;
-    border-radius: 10px;
+    border-radius: 50px;
     display: block;
     transition: all 0.2s ease;
 }
