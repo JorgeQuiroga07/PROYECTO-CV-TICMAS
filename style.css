@@ -83,6 +83,30 @@ button.saludo {
     border-radius: 15px;
 }
 
+/* MODAL */
+button#btn-abrir-modal{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 15px;
+}
+
+dialog#modal {
+    background-color: #85c7e3;
+    border-radius: 25px;
+    max-width: 50ch;
+}
+
+button#btn-cerrar-modal{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 15px;
+}
+
+#modal::backdrop {
+    background-color: rgba(0,0,0,.55);
+}
 
 .hero-imagen-desarrollador{
     width: 200px;
