@@ -80,7 +80,7 @@ button.saludo {
     color: white;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /* MODAL */
@@ -88,7 +88,7 @@ button#btn-abrir-modal{
     color: white;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 dialog#modal {
@@ -101,7 +101,7 @@ button#btn-cerrar-modal{
     color: white;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #modal::backdrop {
@@ -422,6 +422,27 @@ footer {
     padding: 20px;
 
 }
+
+/* Ir Arriba*/
+.btn-scrolltop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffc812;
+    border: 1px solid #ffc812;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+}
+
+.btn-scrolltop-on {
+    transform: translateY(0px);
+}
+
 
 /*Adaptable (Responsivo)*/
 
