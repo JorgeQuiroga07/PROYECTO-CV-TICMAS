@@ -41,3 +41,27 @@ const add_btn_scrolltop = () => {
         btn_scrolltop.classList.add("btn-scrolltop-on")   
     }
 }
+
+const bdark = document.querySelector('#bdark');
+const body = document.querySelector('body');
+
+load();
+
+bdark.addEventListener('click', e =>{
+    body.classList.toggle('darkmode');
+    store(body.classList.contains('darkmode'))
+});
+
+function load(){
+ const darkmode = localStorage.getItem('darkmode');
+
+ if(!darkmode){
+    store('true');
+}else if(darkmode == 'false'){
+    body.classList.add('darkmode');
+}
+}
+
+function store(value){
+    localStorage.setItem('darkmode', value);
+}

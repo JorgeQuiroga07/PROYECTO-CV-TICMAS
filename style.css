@@ -108,6 +108,23 @@ button#btn-cerrar-modal{
     background-color: rgba(0,0,0,.55);
 }
 
+/* Modo oscuro */
+
+button#bdark {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px;
+    border:none;
+    background: transparent;
+}
+
+button#bdark:hover{
+    background-color: black;
+    color: white;
+}
+
+
 .hero-imagen-desarrollador{
     width: 200px;
     height: 200px;
@@ -480,4 +497,31 @@ footer {
 }
 
 
+body.darkmode{
+    background-color: rgb(32, 32, 44);
+    color :#279984
+}
 
+.darkmode header{
+    background-color: rgb(12, 12, 22);
+    color :white
+}
+
+.darkmode header a{
+    color: white;
+}
+
+.darkmode button{
+    color: white;
+}
+
+.darkmode button:hover{
+    background-color: white;
+    color: black;
+}
+
+body {
+    transition: all o.4s;
+}
+
+/*color bueno #279984*/
