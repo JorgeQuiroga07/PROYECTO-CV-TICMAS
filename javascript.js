@@ -35,7 +35,7 @@ window.onscroll = () => {
 }
 
 const add_btn_scrolltop = () => {
-    if (window.scrollY < 3600) {
+    if (window.scrollY < 800) {
         btn_scrolltop.classList.remove("btn-scrolltop-on")
     } else {
         btn_scrolltop.classList.add("btn-scrolltop-on")   
