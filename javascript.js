@@ -49,15 +49,16 @@ load();
 
 bdark.addEventListener('click', e =>{
     body.classList.toggle('darkmode');
-    store(body.classList.contains('darkmode'))
+    store(body.classList.contains('darkmode'));
 });
+
 
 function load(){
  const darkmode = localStorage.getItem('darkmode');
 
  if(!darkmode){
-    store('true');
-}else if(darkmode == 'false'){
+    store('false');
+}else if(darkmode == 'true'){
     body.classList.add('darkmode');
 }
 }

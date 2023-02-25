@@ -76,6 +76,25 @@ h1 {
     padding: 3rem;
 }
 
+.movimiento {
+    margin: auto;
+    white-space: nowrap;
+    border-right: 5px solid;
+    width: 19ch;   
+    animation: typing 4s steps(12),
+    blink .5s infinite step-end alternate;overflow:hidden;
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
+
+
 button.saludo {
     color: white;
     background: rgb(2,0,36);
@@ -496,7 +515,28 @@ footer {
     }
 }
 
+@media screen and (max-width: 700px) {
+    .movimiento {
+        font-size: 40px;
+        font-size: 3.5rem;
+    } 
+}  
 
+@media screen and (max-width: 541px) {
+    .movimiento {
+        font-size: 40px;
+        font-size: 2.5rem;
+    } 
+} 
+
+@media screen and (max-width: 371px) {
+    .movimiento {
+        font-size: 40px;
+        font-size: 1.7rem;
+    } 
+}   
+
+/*Dark Mode*/
 body.darkmode{
     background-color: rgb(0, 0, 0);
     color :#279984
