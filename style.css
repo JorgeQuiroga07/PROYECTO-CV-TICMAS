@@ -202,8 +202,9 @@ body.darkmode{
     font-size: var(--bs-navbar-toggler-font-size);
     line-height: 1;
     color: var(--bs-navbar-color);
-    background: rgb(2,0,36);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /*background: rgb(2,0,36);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+    background: rgb(43 226 179 / 50%);
     border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
@@ -224,35 +225,101 @@ body.darkmode{
 
 .darkmode button{
     color: white;
+    background: rgb(43 226 179 / 50%);
+}
+
+.darkmode button.saludo:hover {
+    color: white;
+    background-color: rgb(43 226 179 / 50%);
+}
+
+.darkmode button#btn-abrir-modal{
+    color: white;
+    background: rgb(43 226 179 / 50%);
+}
+
+.darkmode dialog#modal {
+    background-color: rgb(43 226 179/ 80%);
+} 
+
+.darkmode button#btn-cerrar-modal {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 166, 237);
 }
 
 .darkmode .titulodark{
-    background: rgb(2,0,36);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /*background: rgb(2,0,36);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+    background: rgb(19 19 126);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: tomato; 
 }
 
+.darkmode .experiencia i{
+    background: rgb(43 226 179 / 50%);
+}
+
 .darkmode .experiencia-titulo {
-    background: rgb(2,0,36);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(43 226 179 / 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: tomato;  
 }
 
-.darkmode .colorletradark{
-    background: rgb(2,0,36);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+.darkmode .experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    border-radius: 25px;
+}
+
+.darkmode .experiencia .columna:hover  {
+    color: white;
+    background-color: rgb(43 226 179 / 50%);
+}
+
+.darkmode .colorletradark {
+    background: rgb(43 226 179 / 50%);
+    /* background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: tomato; 
 }
 
+.darkmode .text-bg-primary{
+   background: rgb(43 226 179 / 50%)!important;
+}
+
+
+
 .darkmode .seccion-titulo {
     color: white;
 }
+
+.darkmode .seccion-oscura{
+    color: white;
+    background: rgb(43 226 179 / 50%);
+}
+
+.darkmode .carousel-item{
+    color:white;
+    background: rgb(43 226 179 / 50%);
+
+}
+
+.darkmode .contacto .rectangulo  {
+    margin-top: -5rem;
+    background-color:  rgb(34 77 194);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+
 
 
 .hero-imagen-desarrollador{
@@ -272,7 +339,7 @@ body.darkmode{
 /* Sobre mi */
 
 .sobre-mi {
-    height: 600px;
+    height: 500px;
     padding: 10px;
 }
 
@@ -445,7 +512,7 @@ body.darkmode{
     max-width: 70%;
     font-size: 20px;
     text-align: center;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 
 .testimonio-info {
@@ -474,7 +541,7 @@ body.darkmode{
     padding: 20px;
 }
 
-.contacto .rectangulo {
+.contacto .rectangulo  {
     margin-top: -5rem;
     background-color: #85c7e3;
     border-radius: 10px;

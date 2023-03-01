@@ -3,12 +3,10 @@ const button = document.querySelector('.saludo');
 button.addEventListener("click", saludar);
 
 function saludar(){
-    /*swal(por alert)*/alert("Bienvenida a mi web! Disfruta el recorrido ⚡️ ");
+    /*swal(por alert)*/alert("Bienvenida a mi web! Disfruta el recorrido ⚡️☺️ ");
     /*button.removeEventListener("click", saludar);*/
 } 
-/*
-☺️
-*/
+
 const btnAbrirModal =
 document.querySelector("#btn-abrir-modal");
 const btnCerrarModal =
