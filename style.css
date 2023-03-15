@@ -240,7 +240,11 @@ body.darkmode{
 }
 
 .darkmode h1 {
-    color: rgb(19 19 126);
+    color: #efb810;
+    position: relative;
+    margin-top: 30px;
+    color: #efb810;
+    text-shadow: 0 0 20px #efb810;
 }
 
 .darkmode button{
@@ -267,6 +271,11 @@ body.darkmode{
     background: rgb(0, 166, 237);
 }
 
+.darkmode button.proyect:hover {
+    color: rgb(19 19 126);
+    background-color: rgb(43 226 179);
+}
+
 .darkmode .colordescripcion{
     /*background: rgb(2,0,36);
     background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -278,7 +287,7 @@ body.darkmode{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top: 60px;
+    margin-top: 50px;
     color: rgb(43 226 179);
     text-shadow: 0 0 20px rgb(19 19 126);
 }
@@ -393,6 +402,11 @@ body.darkmode{
     color:white;
     background: rgb(43 226 179 / 50%);
 
+}
+
+.darkmode .testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #efb810;
 }
 
 .darkmode .contacto .rectangulo  {
